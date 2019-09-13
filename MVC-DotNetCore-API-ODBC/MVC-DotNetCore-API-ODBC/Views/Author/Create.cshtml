@@ -1,0 +1,22 @@
+﻿
+
+
+<form method="POST" target="_self" action="Add">
+    <input type="hidden" asp-for="AuthorID" />
+    <div class="form-group">
+        <label for="author">Nome</label>
+        <input type="text" class="form-control" asp-for="Name" placeholder="Nome do Autor">
+    </div>
+    <input type="submit" class="btn btn-primary" value="Criar" />
+</form>
+
+<!--
+<form method="POST" target="_self" action="Add">
+    <input type="hidden" id="AuthorID" name="AuthorID"/>
+    <div class="form-group">
+        <label for="author">Nome</label>
+        <input type="text" class="form-control" id="Name" name="Name" placeholder="Nome do Autor">
+    </div>
+    <input type="submit" class="btn btn-primary" value="Criar" />
+</form>
+-->
